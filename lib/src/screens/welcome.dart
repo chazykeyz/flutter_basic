@@ -15,7 +15,7 @@ class WelcomeScreen extends StatelessWidget {
                   image: DecorationImage(
                       fit: BoxFit.cover,
                       image: NetworkImage(
-                          "https://images.pexels.com/photos/959751/pexels-photo-959751.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")))),
+                          "https://images.pexels.com/photos/4992661/pexels-photo-4992661.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")))),
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(

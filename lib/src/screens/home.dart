@@ -23,17 +23,14 @@ class _HomeState extends State<Home> {
                 background: CustomeSilverComponent(),
               ),
               floating: true,
-              pinned: false,
-              snap: true,
+              pinned: true,
+              snap: false,
+              toolbarHeight: 0,
               expandedHeight: 300,
               leading: Container(),
             ),
             SliverToBoxAdapter(
-              child: Container(
-                height: 800,
-                width: double.infinity,
-                color: Colors.white,
-              ),
+              child: Preview(),
             )
           ],
         ));
