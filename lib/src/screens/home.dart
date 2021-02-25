@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:tabs/src/data/content_data.dart';
 import 'package:tabs/src/widgets/scrollList.dart';
 import 'package:tabs/src/widgets/widget.dart';
@@ -22,8 +23,14 @@ class _HomeState extends State<Home> {
           slivers: [
             SliverAppBar(
               flexibleSpace: FlexibleSpaceBar(
-                background: CustomeSilverComponent(),
-              ),
+                  background: Container(
+                      child: Swiper(
+                          itemCount: 2,
+                          pagination: new SwiperPagination(),
+                          itemBuilder: (BuildContext context, int index) {
+                            return CustomeSilverComponent(
+                                homeContent: homeContent);
+                          }))),
               floating: true,
               pinned: true,
               snap: false,
@@ -46,6 +53,15 @@ class _HomeState extends State<Home> {
                     contentList: originals, title: "Originals", expand: true),
               ),
             )
+          ],
+        ),
+        bottomNavigationBar: BottomNavigationBar(
+          items: [
+            BottomNavigationBarItem(icon: (Icon(Icons.home)), label: "Home"),
+            BottomNavigationBarItem(icon: (Icon(Icons.home)), label: "Explore"),
+            BottomNavigationBarItem(icon: (Icon(Icons.home)), label: ""),
+            BottomNavigationBarItem(icon: (Icon(Icons.home)), label: "chat"),
+            BottomNavigationBarItem(icon: (Icon(Icons.home)), label: "chat")
           ],
         ));
   }

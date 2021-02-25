@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:tabs/src/models/content_model.dart';
 
 class CustomeSilverComponent extends StatelessWidget {
+  final Content homeContent;
+
+  const CustomeSilverComponent({Key key, this.homeContent}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -11,8 +15,7 @@ class CustomeSilverComponent extends StatelessWidget {
           height: 500,
           decoration: BoxDecoration(
               image: DecorationImage(
-                  image: NetworkImage(
-                      "https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"),
+                  image: NetworkImage(homeContent.imageUrl),
                   fit: BoxFit.cover)),
         ),
         Container(
@@ -34,16 +37,22 @@ class CustomeSilverComponent extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  "Happier Moments",
-                  style: GoogleFonts.poppins(
-                      textStyle: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.w600)),
+                ShaderMask(
+                  shaderCallback: (bounds) => LinearGradient(
+                      begin: Alignment.bottomCenter,
+                      end: Alignment.topCenter,
+                      colors: [Colors.blue, Colors.red]).createShader(bounds),
+                  child: Text(
+                    homeContent.name,
+                    style: GoogleFonts.poppins(
+                        textStyle: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontWeight: FontWeight.w600)),
+                  ),
                 ),
                 Text(
-                  "The Remembered Day of the Life i almost left was the most Pain MOent i ahev ever met in my entirely sinceliery life",
+                  homeContent.description,
                   style: GoogleFonts.poppins(
                       textStyle: TextStyle(
                     color: Colors.white,

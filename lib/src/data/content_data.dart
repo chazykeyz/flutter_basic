@@ -6,7 +6,7 @@ final Content homeContent = Content(
     imageUrl:
         "https://images.pexels.com/photos/2346754/pexels-photo-2346754.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     description:
-        "A lonely young woman, Sintel, helps and befriends a dragon,\nwhom she calls Scales. But when he is kidnapped by an adult\ndragon, Sintel decides to embark on a dangerous quest to find\nher lost friend Scales.",
+        "A lonely young woman, Sintel, helps and befriends a dragon,\nwhom she calls Scales. But when he is kidnapped by an adult\ndragon,.",
     date: "17 June 2021");
 
 final List<Content> previews = const [
