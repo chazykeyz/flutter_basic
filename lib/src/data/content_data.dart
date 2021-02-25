@@ -26,7 +26,7 @@ final List<Content> previews = const [
         "https://images.pexels.com/photos/612936/pexels-photo-612936.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   ),
   Content(
-    name: 'The Umbrella Academy',
+    name: 'Umbrella',
     imageUrl:
         "https://images.pexels.com/photos/3889855/pexels-photo-3889855.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     color: Colors.yellow,
@@ -34,7 +34,7 @@ final List<Content> previews = const [
         "https://images.pexels.com/photos/3214958/pexels-photo-3214958.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   ),
   Content(
-    name: 'Carole and Tuesday',
+    name: 'Carole choose',
     imageUrl:
         "https://images.pexels.com/photos/2827374/pexels-photo-2827374.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     color: Colors.lightBlueAccent,
@@ -50,7 +50,7 @@ final List<Content> previews = const [
         "https://images.pexels.com/photos/1274260/pexels-photo-1274260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   ),
   Content(
-    name: 'Avatar The Last Airbender',
+    name: ' Play Around ',
     imageUrl:
         "https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     color: Colors.orange,
@@ -58,7 +58,7 @@ final List<Content> previews = const [
         "https://images.pexels.com/photos/2174656/pexels-photo-2174656.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   ),
   Content(
-    name: 'The Crown',
+    name: 'Insane Pet',
     imageUrl:
         "https://images.pexels.com/photos/2178175/pexels-photo-2178175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     color: Colors.red,
@@ -66,7 +66,7 @@ final List<Content> previews = const [
         "https://images.pexels.com/photos/2249602/pexels-photo-2249602.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   ),
   Content(
-    name: 'The Umbrella Academy',
+    name: 'Floatings',
     imageUrl:
         "https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     color: Colors.yellow,
@@ -74,7 +74,7 @@ final List<Content> previews = const [
         "https://images.pexels.com/photos/2082949/pexels-photo-2082949.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500Assets.umbrellaAcademyTitle",
   ),
   Content(
-    name: 'Carole and Tuesday',
+    name: 'Googlerei',
     imageUrl:
         "https://images.pexels.com/photos/346768/pexels-photo-346768.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     color: Colors.lightBlueAccent,
@@ -82,7 +82,7 @@ final List<Content> previews = const [
         "https://images.pexels.com/photos/586687/pexels-photo-586687.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   ),
   Content(
-    name: 'Black Mirror',
+    name: 'white Mirror',
     imageUrl:
         "https://images.pexels.com/photos/2108845/pexels-photo-2108845.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     color: Colors.green,
@@ -109,7 +109,7 @@ final List<Content> myList = const [
       imageUrl:
           "https://images.pexels.com/photos/2218344/pexels-photo-2218344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"),
   Content(
-      name: 'Black Mirror',
+      name: 'shopping',
       imageUrl:
           "https://images.pexels.com/photos/772665/pexels-photo-772665.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"),
   Content(
@@ -125,11 +125,11 @@ final List<Content> myList = const [
       imageUrl:
           "https://images.pexels.com/photos/238622/pexels-photo-238622.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"),
   Content(
-      name: 'Carole and Tuesday',
+      name: 'Tuesday',
       imageUrl:
           "https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"),
   Content(
-      name: 'Black Mirror',
+      name: 'something',
       imageUrl:
           "https://images.pexels.com/photos/531602/pexels-photo-531602.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"),
 ];
